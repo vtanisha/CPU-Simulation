@@ -26,17 +26,17 @@ The implementation uses **multi-threading (`std::thread`)**, **priority queues**
 
 This project consists of **three main components**:
 
-### ** RAM Management (`ram.h`)**
+### ** RAM Management (`ram.h`) **
 
 - Stores processes in a **priority queue**.
 - Retrieves and removes processes dynamically as they are executed.
 
-### ** CPU Execution (`cpu.h`)**
+### ** CPU Execution (`cpu.h`) **
 
 - Uses **multithreading** to simulate **multiple CPU cores**.
 - Implements **Round-Robin scheduling** with **quantum execution**.
 
-### ** Resource Manager (`resource_manager.h`)**
+### ** Resource Manager (`resource_manager.h`) **
 
 - Uses **semaphores (`std::mutex`)** to prevent deadlocks.
 - Controls resource allocation and ensures safe access.
