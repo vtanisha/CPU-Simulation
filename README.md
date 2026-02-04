@@ -45,7 +45,7 @@ This project consists of **three main components**:
 
 ## Technical Details & Implementation
 
-### Process Structure**
+### Process Structure
 
 Each process has:
 
@@ -53,17 +53,17 @@ Each process has:
 - **Priority (`priority`)** – Higher values indicate higher importance.
 - **Steps (`steps`)** – Number of execution cycles.
 
-### RAM Management**
+### RAM Management
 
 - Uses a **min-heap priority queue** for efficient scheduling.
 - Ensures **fair execution order** for processes.
 
-### CPU Execution**
+### CPU Execution
 
 - Implements **Round-Robin scheduling**.
 - Uses **multithreading (`std::thread`)** for parallel execution.
 
-### Resource Allocation**
+### Resource Allocation
 
 - Uses **semaphores (`std::mutex`)** to manage shared resources.
 - Ensures **deadlock prevention** using **safe resource allocation**.
