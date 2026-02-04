@@ -102,12 +102,12 @@ This simulation provides **realistic OS behavior** and is valuable for:
 
 ##  Setup & Execution
 
-### ** Prerequisites**
+### **Prerequisites**
 
 - **C++ Compiler** (`g++`, `MSVC`, `Clang`)
 - **C++ Standard Library** (`<thread>`, `<mutex>`, `<queue>`, `<iostream>`)
 
-### ** Compilation & Execution**
+### **Compilation & Execution**
 
 ```sh
 g++ -std=c++17 main.cpp -o simulation -lpthread
